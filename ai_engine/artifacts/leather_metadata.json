@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 196,
+  "num_calibration_images": 49,
+  "num_total_normal_images": 245,
+  "num_patches_raw": 153664,
+  "calibration_seed": 42,
+  "category_id": "leather",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.24393735826015472,
+    "std": 0.041637711226940155,
+    "p05": 0.17318202555179596,
+    "p95": 0.2892463803291321,
+    "p99": 0.31691381335258484,
+    "p99_plus_margin": 0.47537070512771606,
+    "image_score_mean": 0.3444830203542904,
+    "image_score_std": 0.021334542046823668,
+    "image_score_max": 0.4144188463687897,
+    "image_score_threshold": 0.4185630348324776,
+    "image_score_scale": 0.021334542046823668,
+    "calibration_image_count": 49
+  },
+  "saved_at": "2026-11-25T19:59:06.935859+00:00"
+}

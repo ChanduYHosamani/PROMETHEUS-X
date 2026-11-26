@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 214,
+  "num_calibration_images": 53,
+  "num_total_normal_images": 267,
+  "num_patches_raw": 167776,
+  "calibration_seed": 42,
+  "category_id": "pill",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.2967560887336731,
+    "std": 0.06387393176555634,
+    "p05": 0.18871170282363892,
+    "p95": 0.38229334354400635,
+    "p99": 0.41323763132095337,
+    "p99_plus_margin": 0.6198564767837524,
+    "image_score_mean": 0.45667711912461045,
+    "image_score_std": 0.03310649556275523,
+    "image_score_max": 0.5361141562461853,
+    "image_score_threshold": 0.5414752978086471,
+    "image_score_scale": 0.03310649556275523,
+    "calibration_image_count": 53
+  },
+  "saved_at": "2026-11-25T19:59:32.177068+00:00"
+}

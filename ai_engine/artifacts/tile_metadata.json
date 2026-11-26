@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 184,
+  "num_calibration_images": 46,
+  "num_total_normal_images": 230,
+  "num_patches_raw": 144256,
+  "calibration_seed": 42,
+  "category_id": "tile",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.3638031482696533,
+    "std": 0.06692484021186829,
+    "p05": 0.22560375928878784,
+    "p95": 0.4260113835334778,
+    "p99": 0.47021353244781494,
+    "p99_plus_margin": 0.7053202986717224,
+    "image_score_mean": 0.4958125624967658,
+    "image_score_std": 0.029321341979495333,
+    "image_score_max": 0.5630671381950378,
+    "image_score_threshold": 0.5686978095769882,
+    "image_score_scale": 0.029321341979495333,
+    "calibration_image_count": 46
+  },
+  "saved_at": "2026-11-25T20:00:01.690591+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 179,
+  "num_calibration_images": 45,
+  "num_total_normal_images": 224,
+  "num_patches_raw": 140336,
+  "calibration_seed": 42,
+  "category_id": "cable",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.3832014203071594,
+    "std": 0.06815208494663239,
+    "p05": 0.28368863463401794,
+    "p95": 0.45856818556785583,
+    "p99": 0.48634570837020874,
+    "p99_plus_margin": 0.7295185327529907,
+    "image_score_mean": 0.5132931159602271,
+    "image_score_std": 0.019394444252281595,
+    "image_score_max": 0.5600801110267639,
+    "image_score_threshold": 0.5656809121370315,
+    "image_score_scale": 0.028284045606851577,
+    "calibration_image_count": 45
+  },
+  "saved_at": "2026-11-25T19:57:30.994833+00:00"
+}

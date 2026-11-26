@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 192,
+  "num_calibration_images": 48,
+  "num_total_normal_images": 240,
+  "num_patches_raw": 150528,
+  "calibration_seed": 42,
+  "category_id": "zipper",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.2286662757396698,
+    "std": 0.0417865552008152,
+    "p05": 0.16790080070495605,
+    "p95": 0.2780238389968872,
+    "p99": 0.3049554228782654,
+    "p99_plus_margin": 0.45743313431739807,
+    "image_score_mean": 0.33766851512094337,
+    "image_score_std": 0.0401652953212889,
+    "image_score_max": 0.44921690225601196,
+    "image_score_threshold": 0.4537090712785721,
+    "image_score_scale": 0.0401652953212889,
+    "calibration_image_count": 48
+  },
+  "saved_at": "2026-11-25T20:00:50.814788+00:00"
+}

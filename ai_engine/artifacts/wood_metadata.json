@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 198,
+  "num_calibration_images": 49,
+  "num_total_normal_images": 247,
+  "num_patches_raw": 155232,
+  "calibration_seed": 42,
+  "category_id": "wood",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.33522865176200867,
+    "std": 0.06017480418086052,
+    "p05": 0.20989468693733215,
+    "p95": 0.38829505443573,
+    "p99": 0.41085943579673767,
+    "p99_plus_margin": 0.6162891387939453,
+    "image_score_mean": 0.4578001821527676,
+    "image_score_std": 0.021407710190935812,
+    "image_score_max": 0.5231321454048157,
+    "image_score_threshold": 0.5283634668588638,
+    "image_score_scale": 0.02641817334294319,
+    "calibration_image_count": 49
+  },
+  "saved_at": "2026-11-25T20:00:39.209240+00:00"
+}

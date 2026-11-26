@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 256,
+  "num_calibration_images": 64,
+  "num_total_normal_images": 320,
+  "num_patches_raw": 200704,
+  "calibration_seed": 42,
+  "category_id": "screw",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.30067533254623413,
+    "std": 0.059353429824113846,
+    "p05": 0.2034505158662796,
+    "p95": 0.37816429138183594,
+    "p99": 0.41666969656944275,
+    "p99_plus_margin": 0.6250045299530029,
+    "image_score_mean": 0.47178592067211866,
+    "image_score_std": 0.03125775253984542,
+    "image_score_max": 0.5540164709091187,
+    "image_score_threshold": 0.5595566356182098,
+    "image_score_scale": 0.03125775253984542,
+    "calibration_image_count": 64
+  },
+  "saved_at": "2026-11-25T19:59:47.170000+00:00"
+}

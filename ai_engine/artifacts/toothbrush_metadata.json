@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 48,
+  "num_calibration_images": 12,
+  "num_total_normal_images": 60,
+  "num_patches_raw": 37632,
+  "calibration_seed": 42,
+  "category_id": "toothbrush",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.20912078022956848,
+    "std": 0.0693095251917839,
+    "p05": 0.0008457279182039201,
+    "p95": 0.30073338747024536,
+    "p99": 0.3387652635574341,
+    "p99_plus_margin": 0.5081478953361511,
+    "image_score_mean": 0.38138191898663837,
+    "image_score_std": 0.017803434419223024,
+    "image_score_max": 0.4201163053512573,
+    "image_score_threshold": 0.4243174684047699,
+    "image_score_scale": 0.021215873420238496,
+    "calibration_image_count": 12
+  },
+  "saved_at": "2026-11-25T19:21:26.287385+00:00"
+}

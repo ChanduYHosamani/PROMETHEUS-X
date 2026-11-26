@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 170,
+  "num_calibration_images": 43,
+  "num_total_normal_images": 213,
+  "num_patches_raw": 133280,
+  "calibration_seed": 42,
+  "category_id": "transistor",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.320942759513855,
+    "std": 0.05909468233585358,
+    "p05": 0.23876464366912842,
+    "p95": 0.3942512571811676,
+    "p99": 0.4272152781486511,
+    "p99_plus_margin": 0.6408228874206543,
+    "image_score_mean": 0.4718227934005649,
+    "image_score_std": 0.0344962510143852,
+    "image_score_max": 0.5899031758308411,
+    "image_score_threshold": 0.5958022075891495,
+    "image_score_scale": 0.0344962510143852,
+    "calibration_image_count": 43
+  },
+  "saved_at": "2026-11-25T20:00:18.980004+00:00"
+}

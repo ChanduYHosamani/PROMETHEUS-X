@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 224,
+  "num_calibration_images": 56,
+  "num_total_normal_images": 280,
+  "num_patches_raw": 175616,
+  "calibration_seed": 42,
+  "category_id": "carpet",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.2580881714820862,
+    "std": 0.044151775538921356,
+    "p05": 0.1764204502105713,
+    "p95": 0.3030693531036377,
+    "p99": 0.3264578580856323,
+    "p99_plus_margin": 0.4896867871284485,
+    "image_score_mean": 0.35266561593328205,
+    "image_score_std": 0.023429380243567118,
+    "image_score_max": 0.46357887983322144,
+    "image_score_threshold": 0.46821466863155364,
+    "image_score_scale": 0.023429380243567118,
+    "calibration_image_count": 56
+  },
+  "saved_at": "2026-11-25T19:58:09.813753+00:00"
+}

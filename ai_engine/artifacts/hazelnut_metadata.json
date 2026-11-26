@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 313,
+  "num_calibration_images": 78,
+  "num_total_normal_images": 391,
+  "num_patches_raw": 245392,
+  "calibration_seed": 42,
+  "category_id": "hazelnut",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.3639807105064392,
+    "std": 0.07534574717283249,
+    "p05": 0.24128542840480804,
+    "p95": 0.47603729367256165,
+    "p99": 0.5283847451210022,
+    "p99_plus_margin": 0.7925771474838257,
+    "image_score_mean": 0.5653094977904589,
+    "image_score_std": 0.02976432640192252,
+    "image_score_max": 0.6363638639450073,
+    "image_score_threshold": 0.6427275025844574,
+    "image_score_scale": 0.03213637512922287,
+    "calibration_image_count": 78
+  },
+  "saved_at": "2026-11-25T19:58:50.180941+00:00"
+}

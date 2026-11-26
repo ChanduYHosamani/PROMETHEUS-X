@@ -1,0 +1,17 @@
+export const MVTEC_CATEGORIES = [
+  { id: 'bottle', name: 'Bottle', type: 'object' },
+  { id: 'cable', name: 'Cable', type: 'object' },
+  { id: 'capsule', name: 'Capsule', type: 'object' },
+  { id: 'carpet', name: 'Carpet', type: 'texture' },
+  { id: 'grid', name: 'Grid', type: 'texture' },
+  { id: 'hazelnut', name: 'Hazelnut', type: 'object' },
+  { id: 'leather', name: 'Leather', type: 'texture' },
+  { id: 'metal_nut', name: 'Metal Nut', type: 'object' },
+  { id: 'pill', name: 'Pill', type: 'object' },
+  { id: 'screw', name: 'Screw', type: 'object' },
+  { id: 'tile', name: 'Tile', type: 'texture' },
+  { id: 'toothbrush', name: 'Toothbrush', type: 'object' },
+  { id: 'transistor', name: 'Transistor', type: 'object' },
+  { id: 'wood', name: 'Wood', type: 'texture' },
+  { id: 'zipper', name: 'Zipper', type: 'object' },
+]

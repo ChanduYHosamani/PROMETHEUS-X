@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# AI Artifacts & Datasets (large binary files)
+ai_engine/artifacts/*.pt
+ai_engine/artifacts/*.pth
+ai_engine/artifacts/*.npz
+ai_engine/artifacts/*.npy
+data/
+mvtec_anomaly_detection/
+
+# Frontend env files (Vite public only — no service_role key)
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Supabase local dev temp files
+supabase/.temp/
+
+# SQL backups
+*.backup.sql
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

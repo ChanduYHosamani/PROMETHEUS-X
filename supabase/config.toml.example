@@ -1,0 +1,24 @@
+# Supabase Project Configuration Template
+# Copy or initialize via `supabase init` when linking to your Supabase project.
+
+project_id = "prometheus-x"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
+
+[storage]
+enabled = true
+file_size_limit = "20MiB"
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173/**"]
+jwt_expiry = 3600

@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 176,
+  "num_calibration_images": 44,
+  "num_total_normal_images": 220,
+  "num_patches_raw": 137984,
+  "calibration_seed": 42,
+  "category_id": "metal_nut",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.33383411169052124,
+    "std": 0.07236263155937195,
+    "p05": 0.21258953213691711,
+    "p95": 0.425211638212204,
+    "p99": 0.4499801695346832,
+    "p99_plus_margin": 0.674970269203186,
+    "image_score_mean": 0.4959997941147197,
+    "image_score_std": 0.027412127125014226,
+    "image_score_max": 0.5858355760574341,
+    "image_score_threshold": 0.5916939318180084,
+    "image_score_scale": 0.029584696590900423,
+    "calibration_image_count": 44
+  },
+  "saved_at": "2026-11-25T19:59:17.664329+00:00"
+}

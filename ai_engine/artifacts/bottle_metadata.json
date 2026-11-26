@@ -1,0 +1,36 @@
+{
+  "backbone_name": "resnet18",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "input_size": 224,
+  "coreset_sampling_ratio": 0.1,
+  "num_train_images": 167,
+  "num_calibration_images": 42,
+  "num_total_normal_images": 209,
+  "num_patches_raw": 130928,
+  "calibration_seed": 42,
+  "category_id": "bottle",
+  "feature_dim": 384,
+  "num_patches_coreset": 2048,
+  "spatial_shape": [
+    28,
+    28
+  ],
+  "stats": {
+    "mean": 0.18534889817237854,
+    "std": 0.05134473741054535,
+    "p05": 0.07863649725914001,
+    "p95": 0.24674475193023682,
+    "p99": 0.2865433692932129,
+    "p99_plus_margin": 0.42981505393981934,
+    "image_score_mean": 0.3216085930665334,
+    "image_score_std": 0.03798133490727005,
+    "image_score_max": 0.4416368901729584,
+    "image_score_threshold": 0.44605325907468796,
+    "image_score_scale": 0.03798133490727005,
+    "calibration_image_count": 42
+  },
+  "saved_at": "2026-11-25T19:57:12.924144+00:00"
+}
